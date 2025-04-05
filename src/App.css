@@ -174,7 +174,7 @@ body{
   padding: 25px;
 }
 /* footer css here */
-.PreFooterMain.MuiBox-root .css-1pnpqq1-MuiGrid-root {
+.PreFooterMain {
   margin: 0px !important;
   width: 100%;
   padding: 65px 45px 50px 45px !important;
@@ -217,6 +217,11 @@ body{
 }
 .preFooter{
   text-align: left !important;
+}
+.preFooter {
+  padding: 65px;
+  /* padding-left: 29px; */
+  margin-left: 0px;
 }
 .featuresCards h6 {
   font-family: 'Montserrat' !important;
@@ -436,6 +441,9 @@ table.MuiTable-root tr td{
   color: white !important;
 
 }
+table.MuiTable-root{
+  background-color:black !important;
+}
 .challengeTableInner{
   padding: 30px;
 }
@@ -447,9 +455,14 @@ table.MuiTable-root tr td{
   border-top-right-radius: 25px !important;
   border-bottom-right-radius: 25px !important;
 }
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.challengeTable.css-1dhj8uo-MuiPaper-root {
-  border-radius: 30px !important;
+.challengeTable{
+  border-radius: 37px !important;
   background-color: #121212 !important;
+}
+.MuiTableContainer-root {
+  background-color: black;
+  border-radius: 40px;
+  
 }
 .JoinSection {
   position: relative;
@@ -744,6 +757,10 @@ table.MuiTable-root tr td{
     left: 0%;
     top: 0%;
     transform: translate(0%, 0%);
+    
+  }
+  .banmobile{
+    text-align: center;
   }
 
   .AboutPlayGround {

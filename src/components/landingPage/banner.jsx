@@ -53,7 +53,7 @@ const Banner = () => {
             </Box>
           </Box>
         </Grid>
-        <Grid item md={5} sm={12}>
+        <Grid item md={5} sm={12} className='banmobile'>
           <motion.img src={bannerImage}
            className='BannerMobile'
             alt="Trading App"
