@@ -1,0 +1,906 @@
+body{
+  margin: 0px 0px !important;
+  padding: 0px !important;
+  overflow-x: hidden !important;
+ 
+}
+#root {
+  overflow-x: hidden !important;
+  text-align: center;
+}
+.landingPage{
+  padding: 4% 6.5% !important;
+}
+
+/* navigation css here */
+.WebNav {
+  padding: 1% 2.5% !important;
+  position: absolute !important;
+  z-index: 2 !important;
+}
+.headBanner .css-1um97ud {
+  padding-top: 110px;
+}
+.headBanner {
+  position: relative !important;
+  z-index: 1;
+}
+.aboutUsBanner {
+  position: relative !important;
+  background-position: center !important;
+  text-align: center !important;
+  background-image: url(/src/assets/logos/background.png) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 320px !important;
+}
+.AboutBannerInner {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+.css-4va7rp-MuiButtonBase-root-MuiButton-root {
+  background-color: #2176B9 !important;
+  border: none !important;
+}
+.css-h7cjts-MuiButtonBase-root-MuiIconButton-root {
+  background-color: #2176B9 !important;
+}
+.headBanner {
+  background: linear-gradient(to bottom, #121212 0%, #2176B9 100%);
+}
+.css-1obifvf-MuiGrid2-root button {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.css-18r1w11-MuiPaper-root-MuiAppBar-root {
+  box-shadow: none !important;
+}
+.bannerHeading {
+  font-family: Montserrat !important;
+  font-weight: 500 !important;
+  font-size: 31px !important;
+}
+.bannerText {
+  font-family: Montserrat !important;
+  font-weight: 700 !important;
+  font-size: 44px !important;
+}
+.btnBannerLearnMore {
+  font-family: 'Roboto'!important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  height: 48px !important;
+  width: 160px !important;
+  text-transform: capitalize !important;
+}
+.BannerCardsMain {
+  padding: 0% 6.5% !important;
+  background: linear-gradient(#2176b9 50%, white 50%);
+  margin: 0px !important;
+  width: 100% !important;
+}
+.LanguageSelecBtn {
+  background-color: #2176B9 !important;
+  border: #2176B9 2px solid !important;
+}
+.btnFreetrial {
+  color:white !important;
+  border: #150578 2px solid !important;
+  background-color: black !important;
+  font-family: 'Roboto'!important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  height: 48px !important;
+  width: 160px !important;
+  text-transform: capitalize !important;
+}
+.cardsRowForBanner .MuiPaper-rounded {
+  border-radius: 25px !important;
+  box-shadow: rgb(192 189 207) 1px 6px 11px;
+  background-color: #F0F0F0 ;
+}
+
+.BannerBottom.MuiBox-root.css-xqz4jt {
+  text-align: left;
+  justify-content: left;
+}
+.miniBannertext1 {
+  padding-left: 15px;
+  font-family: 'Montserrat' !important;
+}
+.miniBannertext2 {
+  padding-left: 15px;
+  font-family: 'Montserrat' !important;
+ 
+}
+.cardsRowForBanner .MuiPaper-root {
+  width: 200px !important;
+  height: auto !important;
+  padding: 25px;
+}
+
+.cardsRowForBanner .MuiPaper-root h4 {
+  font-family: 'Montserrat' !important;
+  color: #2176B9 !important;
+  font-weight: 500 !important;
+  font-size: 45px !important;
+}
+.cardsRowForBanner .MuiPaper-root p {
+  font-family: 'Roboto' !important;
+  color: #1F1C1C;
+  font-weight: 300 !important;
+  font-size: 13px !important;
+}
+.propSectionHeading {
+  margin:revert !important;
+  font-family: 'Montserrat' !important;
+  font-size: 37px !important;
+  font-weight: 700 !important;
+}
+.propSectionHeading b{
+  color: #2176B9 !important;
+}
+
+.cardsRowForProps img {
+  height: auto !important;
+  width: 122px !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cardsRowForProps .MuiPaper-root{
+  position: relative;
+  width: 200px !important;
+  height: 100px !important;
+  padding: 25px;
+}
+.cardsRowForProps .MuiPaper-root {
+  border-radius: 16px !important;
+  background-color: #F0F0F0 !important;
+  padding: 15px !important;
+}
+.featuresCards {
+  padding: 25px;
+}
+/* footer css here */
+.PreFooterMain.MuiBox-root.css-7rpqt .css-1pnpqq1-MuiGrid-root {
+  margin: 0px !important;
+  width: 100%;
+  padding: 65px 45px 50px 45px !important;
+}
+.footer .css-11nsb57-MuiGrid-root {
+  margin: 0px;
+}
+.PreFooterMain {
+  margin: 0px !important;
+  background: #0A0F14;
+  color: white;
+  padding: 0px !important;
+}
+.footer {
+  background-color: #2176B9;
+  padding: 45px 45px 20px 45px !important;
+  text-align: left !important;
+}
+.footer p {
+  text-align: justify !important;
+  color: white !important;
+  font-family: 'Roboto' !important;
+  font-weight: 200;
+}
+.FooterLink div {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  color: white !important;
+}
+.FooterLink div a {
+  font-family:'Montserrat' !important;
+  color: white !important;
+}
+.footer .css-i9gxme {
+  padding-bottom: 20px !important;
+  border-bottom: 3px solid #150578 !important;
+}
+.copyrightSection {
+  padding-top: 20px !important;
+}
+.preFooter{
+  text-align: left !important;
+}
+.featuresCards h6 {
+  font-family: 'Montserrat' !important;
+}
+.featuresCards p {
+  font-family: 'Roboto' !important;
+}
+.dataTable{
+  border-radius: 26px !important;
+  background-color: #121314 !important;
+}
+.dataTable .MuiTabs-root.css-1hsz6x3-MuiTabs-root {
+  background-color: transparent !important;
+}
+.dataTable .MuiTabs-root.css-1hsz6x3-MuiTabs-root button {
+  font-family: 'Montserrat' !important;
+}
+.banImage {
+  width: 200px;
+}
+.retailSectionfirst {
+  position: relative;
+  margin-bottom: 70px;
+  background-image: url(/src/assets/img/retails1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.retailSection {
+  background-image: url(/src/assets/img/retails.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.retailText h3 {
+  text-align: left;
+  font-family: 'Montserrat' !important;
+  font-weight: 600 !important;
+  padding-bottom: 20px;
+}
+.retailText p {
+  padding-top: 40px !important;
+  text-align: left;
+  font-family: 'Roboto' !important;
+  font-weight: 200 !important;
+}
+.retailText.retailText1 {
+  position: absolute;
+  left: 2%;
+  top: 0%;
+  transform: translate(0%, 35%);
+}
+
+.retailPara p {
+  padding-top: 10px !important;
+}
+
+.evaluationCards {
+  background-image: url(/src/assets/img/evaluationtrans.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 460px;
+}
+.EvaluationCardsBg {
+  margin-left: 0px !important;
+}
+.evaluationHead {
+  color: #121212 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 45px !important;
+  text-align: center;
+}
+.EvaluationMainDiv.MuiBox-root.css-1forkrd {
+  padding: 20px;
+  border-radius: 50px;
+}
+.featureCard {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 14px;
+  min-height: auto;
+}
+
+.featureCard {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+.featuresCards {
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+  position: relative;
+}
+.featureCard svg {
+  font-size: 50px !important;
+  margin-bottom: 10px;
+}
+
+.featureCard h6 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.featureCard p {
+  font-size: 14px;
+  max-width: 90%;
+}
+
+
+.teamImage {
+  width: auto !important;
+  height: 116px !important;
+}
+.teamCards {
+  box-shadow: none !important;
+  border: none !important;
+}
+.OBhead {
+  font-family: 'Montserrat' !important;
+  font-size: 45px;
+  color: #121212 !important;
+  font-weight: 900 !important;
+  text-align: left;
+}
+.OBhead b {
+  color: #2176B9 !important;
+}
+p.MuiTypography-root.MuiTypography-body1.OBPara.css-rizt0-MuiTypography-root {
+  padding: 25px 0px;
+  font-family: 'Montserrat' !important;
+  font-size: 14px;
+  text-align: left;
+}
+.MuiOutlinedInput-notchedOutline.css-1ll44ll-MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.highlightsHead{
+  padding-bottom: 40px;
+  text-align: left;
+  font-family: 'Montserrat' !important;
+  font-weight: 600 !important;
+}
+.dataTable .MuiTabs-indicator.css-1qltlow-MuiTabs-indicator {
+  display: none !important;
+}
+.Propsectionmain.css-wgaqf3-MuiGrid2-root {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.tradingHead{
+  text-align: left;
+  font-family: 'Montserrat' !important;
+  font-weight: 600 !important;
+}
+.tradingPara{
+  text-align: left;
+  font-family: "Roboto" !important;
+  font-weight: 200 !important;
+   
+}
+.tradingSection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.benefitAboutBox h3 {
+  font-family: 'Montserrat' !important;
+  color: white !important;
+  font-size: 18px !important;
+}
+.ObSelec {
+  margin: 10px;
+}
+.highlightsSection{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.featuresSection{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.challengeTableHeadleft {
+  font-family: 'Montserrat' !important;
+  background-color: black !important;
+  color: white !important;
+  font-weight: 700;
+  border: none !important;
+  text-align: left;
+  padding: 15px;
+  border-top-left-radius: 30px;
+}
+.challengeTableHeadright {
+  border-top-right-radius: 30px;
+  font-family: 'Montserrat' !important;
+  background-color: black !important;
+  color: white !important;
+  font-weight: 700;
+  border: none !important;
+  text-align: right;
+  padding: 15px;
+}
+.challengeTableInner .MuiTableBody-root.css-gmh7jj-MuiTableBody-root tr td {
+  border: none !important;
+  color: white !important;
+}
+.challengeTableInner{
+  padding: 30px;
+}
+.challengeTableInner tbody tr td:first-child {
+  border-top-left-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+}
+.challengeTableInner tbody tr td:last-child {
+  border-top-right-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.challengeTable.css-1dhj8uo-MuiPaper-root {
+  border-radius: 30px !important;
+  background-color: #121212 !important;
+}
+.JoinSection {
+  position: relative;
+  margin-bottom: 70px;
+  background-image: url(/src/assets/img/Join.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.JoinSection .css-1wcaknn {
+  margin: 0px !important;
+  position: absolute;
+  left: 4%;
+  top: 56%;
+  transform: translate(0%, -50%);
+}
+.JoinText h3 b{
+  color: #2176B9 !important
+}
+.JoinText h3 {
+  text-align: left;
+  font-family: 'Montserrat' !important;
+  font-weight: 600 !important;
+}
+.JoinText p {
+  padding-top: 40px !important;
+  text-align: left;
+  font-family: 'Roboto' !important;
+}
+
+.JoinText{
+  margin-top: 5%;
+}
+.btnGroupJoin.MuiBox-root.css-1yuhvjn {
+  text-align: justify;
+}
+.AboutPlayGround {
+  margin-left: 3%;
+  background-image: url(/src/assets/img/tower.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 666px;
+  margin-right: 3%;
+}
+.AboutPlayGroundText h3 {
+  margin-top:26% !important;
+  text-align: left !important;
+  font-family: 'Montserrat' !important;
+  font-weight: 600 !important;
+  font-size: 54px !important;
+}
+.AboutPlayGroundText p {
+  font-size: 14px !important;
+    padding-top: 25px !important;
+    text-align: left !important;
+    font-family: 'Roboto' !important;
+}
+.playgroundtxt1 {
+  color: #2176B9 !important;
+}
+.playgroundtxt2 {
+  color: white !important;
+}
+
+.AboutNav{
+  position: relative;
+    padding-top: 16px;
+    display: flex;
+}
+.LanguageSelector.MuiBox-root.css-tx9i6n {
+  gap: 9px;
+  padding: 5px;
+  height: 45px;
+}
+.LanguageSelectorFlag {
+  margin-top: 22%;
+}
+.LanguageSelector p {
+  font-size: 14px;
+  margin-left: -9%;
+}
+.MuiContainer-root.MuiContainer-maxWidthLg.JoinTeamssection.css-5s3c8a-MuiContainer-root {
+  margin-top: -76px;
+}
+.TeamJoinsBox.MuiBox-root.css-0 {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.JoinTeamssection {
+  padding-top: 50px !important;
+  padding-bottom: 64px !important;
+}
+.OnlyMobileSection{
+  display: none;
+}
+.ContactInfo {
+  padding: 0px !important;
+  background-color: #13191e !important;
+  color: white !important;
+  border-radius: 45px !important;
+}
+.ContactInfoCard {
+  padding: 70px !important;
+}
+.ContactInfoCard h5 {
+  font-weight: 700 !important;
+  text-align: left;
+  font-family: 'Montserrat';
+}
+.ContactInfoCard p {
+  text-align: left;
+  font-family: 'Montserrat';
+}
+.MapImg.MuiBox-root.css-0 img {
+  width: inherit !important;
+}
+
+.MapImg.MuiBox-root.css-0 {
+  width: 100% !important;
+}
+.Contactform {
+  background-color: transparent !important;
+  margin-top: 70px !important;
+  margin-bottom: 70px !important;
+  color: white !important;
+}
+.FormCards {
+  border-radius: 20px !important;
+  width: 100% !important;
+  background-color: #2B2323 !important;
+  padding: 30px !important;
+  margin: 15px !important;
+  display: inline-block !important;
+}
+.formCardsList {
+  font-family: 'Montserrat' !important;
+  display: flex !important;
+  position: relative !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+.formCardsList svg {
+  margin-top: -5px !important;
+  margin-right: 15px !important;
+}
+.ContactFormLeft h3{
+  padding-top: 30px !important;
+   font-family: 'Montserrat' !important;
+   font-weight: 700 !important;
+   text-align: left !important;
+   padding-left: 20px !important;
+}
+.MuiFormControl-root.formFieldsInner.css-1iw3t7y-MuiFormControl-root {
+  display: block !important;
+  width: 100% !important;
+}
+.AboutUsBody.MuiBox-root.css-0 {
+  background-color: black !important;
+}
+.formFieldsInner #bootstrap-input {
+  width: auto !important;
+  border-radius: 12px !important;
+  border: 2px solid #2176B9 !important;
+  background-color: transparent !important;
+}
+#FormTextArea{
+  margin-top: 25px !important;
+  width: 100% !important;
+  border-radius: 12px !important;
+  border: 2px solid #2176B9 !important;
+  background-color: transparent !important;
+}
+.formFieldsInner .css-354zk2-MuiInputBase-root {
+  width: 100% !important;
+  display: grid !important;
+}
+.formFieldsInner label {
+  color: white !important;
+}
+.ContactFormRight {
+  border-radius: 50px !important;
+  background-color: #13171b !important;
+  padding: 25px 50px !important;
+}
+.ContactFormRight h3{
+  font-family: 'Montserrat' !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  padding-left: 20px !important;
+}
+.FormFields.MuiBox-root.css-lgj0h8 {
+  margin: 30px 0px !important;
+}
+.FormFields label {
+  font-family: 'Montserrat' !important;
+}
+
+/* media query here */
+@media (max-width: 1190px) {
+
+.featureCard p {
+    font-size: 12px;
+}
+.featureCard h6 {
+  font-size: 16px;
+}
+.featureCard svg {
+  font-size: 40px !important;
+}
+.featuresCards p {
+  font-size: 13px !important;
+}
+.JoinText h3 {
+  font-size: 41px !important;
+}
+.retailPara p {
+  font-size: 14px;
+  padding-top: 20px !important;
+}
+.retailText h3 {
+  font-size: 34px;
+  padding-bottom: 0px;
+}
+.retailText p {
+  font-size: 14px;
+  padding-top: 21px !important;
+}
+.retailText.retailText1 {
+  position: absolute;
+  left: 2%;
+  top: 9%;
+  transform: translate(1%, 35%);
+}
+.retailsLast .css-13msox4-MuiTypography-root {
+  margin-top: 24%;
+}
+
+}
+@media (max-width: 1140px) {
+  .retailText.retailText1 {
+    position: absolute;
+    left: 2%;
+    top: 8%;
+    transform: translate(1%, 35%);
+}
+.retailText p {
+  font-size: 14px;
+  padding-top: 11px !important;
+}
+
+}
+
+@media (max-width: 1099px) {
+  .WebNav {
+    padding: 1% 0% !important;
+  }
+  .cardsRowForBanner .MuiPaper-root h4 {
+    font-size: 35px !important;
+}
+.propSectionHeading {
+  font-size: 33px !important;
+}
+.css-2hbfyc-MuiImageListItem-root {
+  width: auto !important;
+}
+.featuresCards p {
+  font-size: 12px !important;
+}
+.JoinText h3 {
+  font-size: 36px !important;
+}
+.JoinText p {
+  font-size: 14px;
+  margin-top: 36px;
+  padding-top: 0px !important;
+}
+.retailText.retailText1 {
+  position: absolute;
+  left: 2%;
+  top: 4%;
+  transform: translate(1%, 35%);
+}
+
+}
+
+@media (max-width: 900px) {
+
+  .retailText.retailText1 {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    transform: translate(0%, 0%);
+  }
+
+  .AboutPlayGround {
+    align-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+    margin-left: 0% !important;
+    height: 500px !important;
+    margin-right: 0% !important;
+  }
+  .TeamJoinsBox.MuiBox-root.css-0 {
+    margin-top: 25px;
+  }
+  .aboutBtnFree {
+    margin-top: 14px !important;
+}
+.playgroundtxt1 {
+  font-size: 28px !important;
+}
+.playgroundtxt2 {
+  font-size: 28px !important;
+}
+.AboutPlayGroundText h3 {
+  line-height: 20px !important;
+  margin-top: 31% !important;
+  text-align: right !important;
+}
+
+  .featuresSection .css-afjkul-MuiGrid-root {
+    margin: 0px;
+  }
+
+  .evaluationCards {
+    background-image: url(/src/assets/img/evalv.png);
+    padding: 20px 10px;
+    height: 900px;
+  }
+  .featureCard h6 {
+    font-size: 15px;
+}
+.featureCard svg {
+  font-size: 31px !important;
+}
+  .featureCard p {
+    font-size: 13px;
+}
+  .featureCard {
+    min-height: 200px;
+  }
+  .evaluationHead {
+    font-size: 35px !important;
+  }
+  .Obright-main .Obright {
+    width: inherit;
+}
+.Obright-main {
+    width: 100%;
+}
+.JoinText h3 {
+  text-align: center !important;
+  font-size: 25px !important;
+}
+.OnlyMobileSection img {
+  width: inherit;
+}
+
+.OnlyMobileSection {
+  width: 100%;
+}
+.JoinMobileMainDiv{
+  height: auto !important;
+}
+.JoinSection{
+  background-image: none;
+}
+.JoinSection .css-1wcaknn {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  transform: translate(0%, 0%);
+}
+.OnlyMobileSection{
+  display: block;
+}
+.retailSectionfirst {
+  margin-bottom: 0px;
+  height: auto !important;
+  background-image: none !important;
+}
+.retailSection{
+  height: auto !important;
+  background-image: none;
+}
+.retailText h3{
+  padding-top: 15px;
+  font-size: 25px !important;
+  text-align: center;
+  margin-top: 0% !important;
+}
+.btnGroupJoin.MuiBox-root.css-1yuhvjn {
+  text-align: center !important;
+}
+.BannerMobile {
+  height: 283px;
+}
+.JoinTeamMobile{
+  height: auto !important;
+}
+.JoinText p {
+  padding-top: 0px !important;
+  text-align: center;
+}
+.retailText1 h3{
+  padding-top: 15px;
+  font-size: 25px !important;
+  text-align: center;
+  margin-top: 0% !important;
+}
+.retailPara{
+  margin-top: 0% !important;
+}
+.retailText p {
+  text-align: center !important;
+  padding-top: 20px !important;
+}
+.landingPage {
+  padding: 4% 4.5% !important;
+}
+.tradingSection .MuiBox-root.css-19kzrtu div {
+  text-align: center;
+  display: block;
+}
+.tradingSection .css-2hbfyc-MuiImageListItem-root {
+  display: inline-block;
+}
+.OBhead {
+  text-align: center;
+}
+.MuiTypography-root.MuiTypography-body1.OBPara.css-rizt0-MuiTypography-root {
+  padding: 25px 18px !important;
+  text-align: center !important;
+}
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.ObSelector.css-1cth5tq-MuiGrid-root {
+  text-align: center;
+  justify-content: center;
+}
+.highlightsHead {
+  padding-bottom: 25px;
+  font-size: 30px !important;
+}
+.ContactFormRight h3 {
+  font-size: 27px;
+}
+}
+
+@media screen and (min-width: 493px) and (max-width: 900px) {
+  .featureCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+
