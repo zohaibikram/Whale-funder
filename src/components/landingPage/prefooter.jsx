@@ -3,6 +3,7 @@ import { Box, Typography, Link, Grid } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import logo from "../../assets/img/logo.png"; 
+import '../../App.css'
 
 const Prefooter = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import Ban from "../../assets/img/ban.png";
 import bannerImage from "../../assets/img/banner-img.png";
-import Stack from '@mui/material/Stack';
+import '../../App.css'
 import Paper from '@mui/material/Paper';
 import { Box, Typography, Button, Grid } from "@mui/material";
 import { styled } from '@mui/material/styles';

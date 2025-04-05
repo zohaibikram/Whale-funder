@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Stack, Typography, Paper, Grid, Grid2, TextareaAutosize } from "@mui/material";
+import {Button, Stack, Typography, Paper, Grid,  TextareaAutosize } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -12,10 +12,11 @@ import TextField from '@mui/material/TextField';
 import FormControl from '@mui/material/FormControl';
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 import { useRef } from "react";
+import '../../App.css'
 
 const CssTextField = styled(TextField)({
     '& label.Mui-focused': {
-      color: '#A0AAB4',
+      color: 'white',
     },
     '& .MuiInput-underline:after': {
       borderBottomColor: '#B2BAC2',
@@ -44,6 +45,7 @@ const CssTextField = styled(TextField)({
       border: '1px solid',
       borderColor: '#E0E3E7',
       fontSize: 16,
+     
       width: 'auto',
       padding: '10px 12px',
       transition: theme.transitions.create([
@@ -75,54 +77,7 @@ const CssTextField = styled(TextField)({
     },
   }));
   
-  const RedditTextField = styled((props) => (
-    <TextField
-      slotProps={{
-        input: { disableUnderline: true },
-      }}
-      {...props}
-    />
-  ))(({ theme }) => ({
-    '& .MuiFilledInput-root': {
-      overflow: 'hidden',
-      borderRadius: 4,
-      border: '1px solid',
-      backgroundColor: '#F3F6F9',
-      borderColor: '#E0E3E7',
-      transition: theme.transitions.create([
-        'border-color',
-        'background-color',
-        'box-shadow',
-      ]),
-      '&:hover': {
-        backgroundColor: 'transparent',
-      },
-      '&.Mui-focused': {
-        backgroundColor: 'transparent',
-        boxShadow: `${alpha(theme.palette.primary.main, 0.25)} 0 0 0 2px`,
-        borderColor: theme.palette.primary.main,
-      },
-      ...theme.applyStyles('dark', {
-        backgroundColor: '#1A2027',
-        borderColor: '#2D3843',
-      }),
-    },
-  }));
   
-  const ValidationTextField = styled(TextField)({
-    '& input:valid + fieldset': {
-      borderColor: '#E0E3E7',
-      borderWidth: 1,
-    },
-    '& input:invalid + fieldset': {
-      borderColor: 'red',
-      borderWidth: 1,
-    },
-    '& input:valid:focus + fieldset': {
-      borderLeftWidth: 4,
-      padding: '4px !important', // override inline-style
-    },
-  });
   
 const ContactForm = () => {
     const fileInputRef = useRef();
@@ -186,6 +141,7 @@ const ContactForm = () => {
              Your Email
             </InputLabel>
               <BootstrapInput id="bootstrap-input" />
+             
           </FormControl>
          </Box>
         </Grid>
